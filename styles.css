@@ -432,3 +432,20 @@ header {
     flex: 1 1 100%;
   }
 }
+
+.footer {
+  padding: 20px 20px;
+  background-color: #8ab0d6;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;	
+}
+
+.footer-content {
+	color: #fff;
+}
+
+.footer-menu, .footer-info {  
+  float:left; width:100%; text-align:center; 
+}
